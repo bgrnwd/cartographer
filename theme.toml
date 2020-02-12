@@ -3,16 +3,16 @@
 
 name = "Cartographer"
 license = "MIT"
-licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE"
-description = ""
+licenselink = "https://github.com/bgrnwd/cartographer/blob/master/LICENSE"
+description = "Cartographer is a minimal Hugo theme designed for readability"
 homepage = "http://example.com/"
-tags = []
+tags = ["minimal","simple","readable","typography","light"]
 features = []
 min_version = "0.41"
 
 [author]
-  name = ""
-  homepage = ""
+  name = "Brian Greenwood"
+  homepage = "https://bgrnwd.com"
 
 # If porting an existing theme
 [original]

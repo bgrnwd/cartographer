@@ -1,0 +1,26 @@
+body {
+  margin: 0; }
+
+p {
+  font-family: "Source Serif Pro", serif; }
+
+h1, h2 {
+  font-family: "Public Sans Web", sans-serif; }
+
+a {
+  text-decoration: none; }
+
+a:visited {
+  color: #000; }
+
+a:hover {
+  color: #3c3c3c; }
+
+nav {
+  border-bottom: 2px solid #000; }
+
+footer {
+  background-color: #262626;
+  color: #fff; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+}
+
+p {
+    font-family: $serif;
+}
+
+h1,h2 {
+    font-family: $sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: $black;
+}
+
+a:hover {
+    color: $grey-3c;
+}
