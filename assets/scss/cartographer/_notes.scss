@@ -1,0 +1,14 @@
+.notes {
+    .category {
+        h2 {
+            border-bottom: 1px solid $black;
+        }
+        .subcategory {
+            border: 1px solid $black;
+            h3 {
+                margin-top: 0;
+                border-bottom: 1px solid $black;
+            }
+        }
+    }
+}
