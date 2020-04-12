@@ -13,9 +13,3 @@ min_version = "0.41"
 [author]
   name = "Brian Greenwood"
   homepage = "https://bgrnwd.com"
-
-# If porting an existing theme
-[original]
-  name = ""
-  homepage = ""
-  repo = ""
