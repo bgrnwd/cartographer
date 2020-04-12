@@ -1,14 +1,18 @@
-body {
-  margin: 0; }
-
 p {
   font-family: "Source Serif Pro", serif; }
 
 h1, h2 {
   font-family: "Public Sans Web", sans-serif; }
 
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  color: #222; }
+
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: #222; }
 
 a:visited {
   color: #000; }
@@ -16,11 +20,72 @@ a:visited {
 a:hover {
   color: #3c3c3c; }
 
+.wrapper {
+  margin: 0 auto;
+  max-width: 1024px; }
+
+#home {
+  height: calc(100vh - 166px); }
+
 nav {
-  border-bottom: 2px solid #000; }
+  border-bottom: 2px solid #000;
+  max-height: none; }
+  nav .nav-container {
+    width: 100%; }
+    nav .nav-container .menu {
+      display: inline-block;
+      float: right;
+      margin: 10px 0; }
+      nav .nav-container .menu ul {
+        list-style-type: none; }
+        nav .nav-container .menu ul li {
+          display: inline-block;
+          padding: 0 10px; }
+    nav .nav-container .home {
+      display: inline-block; }
 
 footer {
   background-color: #262626;
-  color: #fff; }
+  color: #fff;
+  padding: 30px 0;
+  display: block; }
+
+code {
+  background-color: #f8efe7;
+  border-radius: 3px;
+  white-space: pre-wrap; }
+
+.highlight {
+  background-color: #f8efe7; }
+
+.post-row .post-title {
+  width: 80%;
+  margin-bottom: 5px;
+  display: inline-block; }
+
+.post-row .post-date {
+  position: relative;
+  float: right;
+  text-transform: uppercase; }
+
+.post-description {
+  margin-top: 0;
+  margin-bottom: 25px;
+  width: 80%; }
+
+.post-year {
+  position: relative;
+  right: 100px;
+  width: 100px;
+  margin-bottom: -26px; }
+
+.notes .category h2 {
+  border-bottom: 1px solid #000; }
+
+.notes .category .subcategory {
+  border: 1px solid #000; }
+  .notes .category .subcategory h3 {
+    margin-top: 0;
+    border-bottom: 1px solid #000; }
 
 /*# sourceMappingURL=style.css.map */
