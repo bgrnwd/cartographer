@@ -1,3 +1,23 @@
 nav {
     border-bottom: 2px solid $black;
+    max-height: none;
+    .nav-container {
+        width: 100%;
+        .menu {
+            display: inline-block;
+            float: right;
+            margin: 10px 0;
+            ul {
+                list-style-type: none;
+                li {
+                    display: inline-block;
+                    padding: 0 10px;
+                }
+            }
+        }
+        
+        .home {
+            display: inline-block;
+        }
+    }
 }

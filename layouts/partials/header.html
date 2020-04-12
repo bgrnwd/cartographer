@@ -1,7 +1,21 @@
-<nav>
+<nav class="wrapper">
     <div class="nav-container">
-        <a href="{{ "/" | relURL }}">
-            <h1 class="nav-title">Obi Wan Kenobi{{ .Site.Title }}</h1>
-        </a>
+        <div class="home">
+            <a href="{{ "/" | relURL }}">
+                <h1 class="nav-title">{{ .Site.Title }}</h1>
+            </a>
+        </div>
+        <div class="menu">
+            <ul>
+                {{ $currentPage := . }}
+                {{ range .Site.Menus.main }}
+                    <li>
+                        <a href="{{ .URL }}" {{ if eq .Name "Code" }}target="_blank"{{ end }}>
+                            <span>{{ .Name }}</span>
+                        </a>
+                    </li>
+                {{ end }}
+            </ul>
+        </div>
     </div>
 </nav>
