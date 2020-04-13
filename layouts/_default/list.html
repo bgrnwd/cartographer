@@ -1,7 +1,7 @@
 {{ define "main"}}
     <main class="wrapper">
         <div class="notes">
-            {{ range .Pages.GroupByParam "category"}}
+            {{ range .Site.RegularPages.GroupByParam "category"}}
                 <div class="category">
                     <h2>{{ .Key }}</h2>
                     {{ range .GroupByParam "subcategory"}}
@@ -9,7 +9,11 @@
                             <h3>{{ .Key }}</h3>
                             <ul>
                             {{ range .Pages }}
-                                {{ .Title }}
+                                <li>
+                                    <span>
+                                        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                                    </span>
+                                </li>
                             {{ end }}
                             </ul>
                         </div>
