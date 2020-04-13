@@ -3,11 +3,16 @@
         width: 80%;
         margin-bottom: 5px;
         display: inline-block;
+        font-weight: bold;
+        font-family: sans-serif;
     }
     .post-date {
         position: relative;
         float: right;
         text-transform: uppercase;
+        font-family: $sans-serif;
+        color: $grey-9;
+        font-weight: bold;
     }
 }
 .post-description {
@@ -21,4 +26,7 @@
     right: 100px;
     width: 100px;
     margin-bottom: -26px;
+    font-family: $sans-serif;
+    color: $grey-9;
+    font-weight: bold;
 }
