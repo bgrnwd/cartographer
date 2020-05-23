@@ -1,6 +1,7 @@
 {{ define "main" }}
     <main class="wrapper">
         <div class="single">
+            {{ .Page.Date.Format "January 02, 2006" }}
             <h1>{{ .Page.Title }}</h1>
             {{ .Content }}
         </div>
