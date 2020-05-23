@@ -2,7 +2,7 @@
     <main class="wrapper">
         <div class="notes">
             <h1>{{ .Page.Title }}</h1>
-            {{ range .Site.RegularPages.GroupByParam "category"}}
+            {{ range .RegularPages.GroupByParam "category"}}
                 <div class="category">
                     <h2>{{ .Key }}</h2>
                     {{ range .GroupByParam "subcategory"}}
