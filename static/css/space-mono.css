@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Space Mono';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Space Mono Italic'), local('SpaceMono-Italic'), url(/font/SpaceMono-Italic) format('truetype');
+  }
+  @font-face {
+    font-family: 'Space Mono';
+    font-style: italic;
+    font-weight: 700;
+    src: local('Space Mono Bold Italic'), local('SpaceMono-BoldItalic'), url(/fonts/SpaceMono-BoldItalic) format('truetype');
+  }
+  @font-face {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Space Mono'), local('SpaceMono-Regular'), url(/fonts/SpaceMono-Regular) format('truetype');
+  }
+  @font-face {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Space Mono Bold'), local('SpaceMono-Bold'), url(/fonts/SpaceMono-Bold) format('truetype');
+  }
