@@ -1,0 +1,27 @@
+.taxonomy {
+  .taxTitle,
+  h3 {
+    text-align: center;
+  }
+  h3 {
+    color: $grey-9;
+    font-family: $mono;
+    text-transform: uppercase;
+  }
+  ul {
+    list-style: none;
+    li {
+      border-bottom: 2px solid $grey-9;
+      padding: 30px 0;
+      span {
+        display: block;
+        margin: 10px 0;
+      }
+      .datetime {
+        color: $grey-9;
+        font-family: $mono;
+        text-transform: uppercase;
+      }
+    }
+  }
+}

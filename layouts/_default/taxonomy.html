@@ -1,0 +1,18 @@
+{{ define "main" }}
+<main class="wrapper">
+    <div class="taxonomy">
+        <h3>All posts tagged</h3>
+        <h2 class="taxTitle">"{{ .Title }}"</h2>
+        <ul>
+            {{ range .Pages }}
+            <li>
+                <span class="datetime">{{ .PublishDate.Format "Jan 02, 2006" }}</span>
+                <h2>
+                    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                </h2>
+            </li>
+            {{ end }}
+        </ul>
+    </div>
+</main>
+{{ end }}
