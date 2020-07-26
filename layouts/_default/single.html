@@ -1,8 +1,14 @@
 {{ define "main" }}
-    <main class="wrapper">
-        <div class="single">
-            <h1>{{ .Page.Title }}</h1>
-            {{ .Content }}
+<main class="wrapper">
+    <div class="single">
+        <h1>{{ .Page.Title }}</h1>
+        {{ .Content }}
+        <div class="tags">
+            <h3 class="filedUnder">Filed Under</h3>
+            {{ range (.GetTerms "tags") }}
+            <p><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></p>
+            {{ end }}
         </div>
-    </main>
+    </div>
+</main>
 {{ end }}

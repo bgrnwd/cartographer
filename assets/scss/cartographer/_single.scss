@@ -1,3 +1,23 @@
 .single {
-    padding-top: 20px;
+  padding-top: 20px;
+
+  .tags {
+    p {
+      background-color: $tan;
+      display: inline-block;
+      padding: 15px;
+      font-family: $mono;
+      font-size: 14px;
+    }
+    .filedUnder {
+      color: $grey-9;
+      border-bottom: 1px solid $grey-9;
+      padding: 0 0 5px 0;
+      margin: 50px 0 0 0;
+      font-family: $mono;
+      text-transform: uppercase;
+      font-size: 15px;
+      font-weight: 300;
+    }
+  }
 }
