@@ -5,7 +5,6 @@
         {{ .Content }}
         {{ range .Data.Pages.GroupByDate "2006" }}
         <div class="post-group">
-            <div class="post-year" id="{{ .Key }}">{{ .Key }}</div>
             {{ range .Pages }}
             <div class="post-row">
                 <span class="post-title">
@@ -14,10 +13,10 @@
                 <span class="post-date">
                     {{ .Page.Date.Format "02 January 2006" }}
                 </span>
+                <p class="post-description">
+                    {{ .Page.Description }}
+                </p>
             </div>
-            <p class="post-description">
-                {{ .Page.Description }}
-            </p>
             {{ end }}
         </div>
         {{ end }}

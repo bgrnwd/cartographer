@@ -63,10 +63,11 @@ footer {
   margin-top: 59px; }
 
 .post-row .post-title {
-  width: 80%;
-  margin-bottom: 5px;
-  display: inline-block;
+  width: 100%;
+  margin-bottom: 0;
+  display: block;
   font-weight: bold;
+  font-size: 22px;
   font-family: sans-serif; }
   .post-row .post-title a {
     text-decoration: none;
@@ -74,29 +75,22 @@ footer {
   .post-row .post-title a:visited {
     color: #000; }
   .post-row .post-title a:hover {
-    color: #3c3c3c; }
+    color: #3c3c3c;
+    text-decoration: underline; }
 
 .post-row .post-date {
-  position: relative;
-  float: right;
   text-transform: uppercase;
   font-family: "Public Sans Web", sans-serif;
   color: #999;
-  font-weight: bold; }
+  font-weight: bold;
+  margin: 5px 0;
+  font-size: 14px;
+  line-height: 1.5em; }
 
 .post-description {
   margin-top: 0;
-  margin-bottom: 25px;
-  width: 80%; }
-
-.post-year {
-  position: relative;
-  right: 100px;
-  width: 100px;
-  margin-bottom: -26px;
-  font-family: "Public Sans Web", sans-serif;
-  color: #999;
-  font-weight: bold; }
+  margin-bottom: 35px;
+  width: 100%; }
 
 .notes .category h2 {
   border-bottom: 1px solid #000;

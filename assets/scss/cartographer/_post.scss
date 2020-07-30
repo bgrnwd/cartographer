@@ -11,34 +11,27 @@
 
     a:hover {
       color: $grey-3c;
+      text-decoration: underline;
     }
-    width: 80%;
-    margin-bottom: 5px;
-    display: inline-block;
+    width: 100%;
+    margin-bottom: 0;
+    display: block;
     font-weight: bold;
+    font-size: 22px;
     font-family: sans-serif;
   }
   .post-date {
-    position: relative;
-    float: right;
     text-transform: uppercase;
     font-family: $sans-serif;
     color: $grey-9;
     font-weight: bold;
+    margin: 5px 0;
+    font-size: 14px;
+    line-height: 1.5em;
   }
 }
 .post-description {
   margin-top: 0;
-  margin-bottom: 25px;
-  width: 80%;
-}
-
-.post-year {
-  position: relative;
-  right: 100px;
-  width: 100px;
-  margin-bottom: -26px;
-  font-family: $sans-serif;
-  color: $grey-9;
-  font-weight: bold;
+  margin-bottom: 35px;
+  width: 100%;
 }
