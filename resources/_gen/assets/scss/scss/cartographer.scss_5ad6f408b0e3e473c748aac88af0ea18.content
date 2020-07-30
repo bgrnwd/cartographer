@@ -14,13 +14,13 @@ body {
 
 a {
   text-decoration: none;
-  color: #222; }
+  color: #008fd5; }
 
 a:visited {
-  color: #000; }
+  color: #008fd5; }
 
 a:hover {
-  color: #3c3c3c; }
+  text-decoration: underline; }
 
 .wrapper {
   margin: 0 auto;
@@ -35,10 +35,16 @@ a:hover {
 nav {
   border-bottom: 2px solid #000;
   max-height: none; }
+  nav a {
+    text-decoration: none;
+    color: #222; }
+  nav a:visited {
+    color: #000; }
+  nav a:hover {
+    color: #3c3c3c; }
   nav .nav-container {
     width: 100%; }
     nav .nav-container .menu {
-      display: inline-block;
       float: right;
       margin: 10px 0; }
       nav .nav-container .menu ul {
@@ -62,6 +68,13 @@ footer {
   display: inline-block;
   font-weight: bold;
   font-family: sans-serif; }
+  .post-row .post-title a {
+    text-decoration: none;
+    color: #222; }
+  .post-row .post-title a:visited {
+    color: #000; }
+  .post-row .post-title a:hover {
+    color: #3c3c3c; }
 
 .post-row .post-date {
   position: relative;
@@ -91,6 +104,8 @@ footer {
 
 .notes .category .subcategory {
   border: 1px solid #000; }
+  .notes .category .subcategory a {
+    font-family: "Source Serif Pro", serif; }
   .notes .category .subcategory h3 {
     margin-top: 0;
     border-bottom: 1px solid #000;
@@ -98,6 +113,13 @@ footer {
 
 .single {
   padding-top: 20px; }
+  .single .tags a {
+    text-decoration: none;
+    color: #222; }
+  .single .tags a:visited {
+    color: #000; }
+  .single .tags a:hover {
+    color: #3c3c3c; }
   .single .tags p {
     background-color: #f8efe7;
     display: inline-block;
@@ -135,5 +157,18 @@ footer {
       color: #999;
       font-family: "Space Mono";
       text-transform: uppercase; }
+
+table {
+  width: 100%;
+  margin: none; }
+  table thead {
+    border-bottom: 2px solid #000;
+    vertical-align: bottom;
+    text-transform: uppercase;
+    text-align: left; }
+    table thead tr th {
+      padding: 5px; }
+  table tbody tr td {
+    padding: 5px; }
 
 /*# sourceMappingURL=style.css.map */

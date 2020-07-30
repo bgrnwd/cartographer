@@ -1,32 +1,32 @@
-body{
-    margin: 0;
-    padding: 0;
-    border: 0;
-    color: $black-2;
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  color: $black-2;
 }
 
 a {
-    text-decoration: none;
-    color: $black-2;
+  text-decoration: none;
+  color: $blue;
 }
 
 a:visited {
-    color: $black;
+  color: $blue;
 }
 
 a:hover {
-    color: $grey-3c;
+  text-decoration: underline;
 }
 
 .wrapper {
-    margin: 0 auto;
-    max-width: 1024px;
+  margin: 0 auto;
+  max-width: 1024px;
 }
 
 .photo {
-    padding-top: 30px;
-    img {
-        width: 100%;
-        max-height: 500px;
-    }
+  padding-top: 30px;
+  img {
+    width: 100%;
+    max-height: 500px;
+  }
 }

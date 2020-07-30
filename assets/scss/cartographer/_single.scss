@@ -2,6 +2,18 @@
   padding-top: 20px;
 
   .tags {
+    a {
+      text-decoration: none;
+      color: $black-2;
+    }
+
+    a:visited {
+      color: $black;
+    }
+
+    a:hover {
+      color: $grey-3c;
+    }
     p {
       background-color: $tan;
       display: inline-block;

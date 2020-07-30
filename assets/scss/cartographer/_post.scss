@@ -1,32 +1,44 @@
 .post-row {
-    .post-title {
-        width: 80%;
-        margin-bottom: 5px;
-        display: inline-block;
-        font-weight: bold;
-        font-family: sans-serif;
+  .post-title {
+    a {
+      text-decoration: none;
+      color: $black-2;
     }
-    .post-date {
-        position: relative;
-        float: right;
-        text-transform: uppercase;
-        font-family: $sans-serif;
-        color: $grey-9;
-        font-weight: bold;
-    }
-}
-.post-description {
-    margin-top: 0;
-    margin-bottom: 25px;
-    width: 80%;
-}
 
-.post-year {
+    a:visited {
+      color: $black;
+    }
+
+    a:hover {
+      color: $grey-3c;
+    }
+    width: 80%;
+    margin-bottom: 5px;
+    display: inline-block;
+    font-weight: bold;
+    font-family: sans-serif;
+  }
+  .post-date {
     position: relative;
-    right: 100px;
-    width: 100px;
-    margin-bottom: -26px;
+    float: right;
+    text-transform: uppercase;
     font-family: $sans-serif;
     color: $grey-9;
     font-weight: bold;
+  }
+}
+.post-description {
+  margin-top: 0;
+  margin-bottom: 25px;
+  width: 80%;
+}
+
+.post-year {
+  position: relative;
+  right: 100px;
+  width: 100px;
+  margin-bottom: -26px;
+  font-family: $sans-serif;
+  color: $grey-9;
+  font-weight: bold;
 }
