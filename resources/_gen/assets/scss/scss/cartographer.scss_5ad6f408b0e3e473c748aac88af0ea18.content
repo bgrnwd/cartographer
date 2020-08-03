@@ -25,7 +25,9 @@ a:hover {
 .wrapper {
   margin: 0 auto;
   max-width: 1024px; }
-
+  @media (max-width: 992px) {
+    .wrapper {
+      margin: 0 20px; } }
 .photo {
   padding-top: 30px; }
   .photo img {
@@ -154,15 +156,29 @@ footer {
 
 table {
   width: 100%;
-  margin: none; }
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-family: "Space Mono"; }
   table thead {
-    border-bottom: 2px solid #000;
     vertical-align: bottom;
     text-transform: uppercase;
-    text-align: left; }
+    text-align: left;
+    border-bottom: 2px solid #000;
+    margin: 0;
+    padding: 0; }
     table thead tr th {
       padding: 5px; }
-  table tbody tr td {
-    padding: 5px; }
+  table tbody {
+    margin: 0;
+    padding: 0; }
+    table tbody tr td {
+      padding: 5px;
+      border-bottom: 1px solid #cdcdcd;
+      height: 100%;
+      vertical-align: middle; }
+    table tbody tr:last-of-type {
+      border: 0; }
+      table tbody tr:last-of-type td {
+        border: 0; }
 
 /*# sourceMappingURL=style.css.map */

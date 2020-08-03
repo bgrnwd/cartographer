@@ -1,11 +1,15 @@
 table {
   width: 100%;
-  margin: none;
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-family: $mono;
   thead {
-    border-bottom: 2px solid $black;
     vertical-align: bottom;
     text-transform: uppercase;
     text-align: left;
+    border-bottom: 2px solid $black;
+    margin: 0;
+    padding: 0;
     tr {
       th {
         padding: 5px;
@@ -13,9 +17,20 @@ table {
     }
   }
   tbody {
+    margin: 0;
+    padding: 0;
     tr {
       td {
         padding: 5px;
+        border-bottom: 1px solid $grey-cd;
+        height: 100%;
+        vertical-align: middle;
+      }
+    }
+    tr:last-of-type {
+      border: 0;
+      td {
+        border: 0;
       }
     }
   }
