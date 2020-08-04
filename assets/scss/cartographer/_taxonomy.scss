@@ -3,6 +3,19 @@
   h3 {
     text-align: center;
   }
+  a {
+    text-decoration: none;
+    color: $black-2;
+  }
+
+  a:visited {
+    color: $black;
+  }
+
+  a:hover {
+    color: $grey-3c;
+    text-decoration: underline;
+  }
   h3 {
     color: $grey-9;
     font-family: $mono;

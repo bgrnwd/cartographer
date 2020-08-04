@@ -136,6 +136,17 @@ footer {
 .taxonomy h3 {
   text-align: center; }
 
+.taxonomy a {
+  text-decoration: none;
+  color: #222; }
+
+.taxonomy a:visited {
+  color: #000; }
+
+.taxonomy a:hover {
+  color: #3c3c3c;
+  text-decoration: underline; }
+
 .taxonomy h3 {
   color: #999;
   font-family: "Space Mono";
@@ -172,7 +183,7 @@ table {
     margin: 0;
     padding: 0; }
     table tbody tr td {
-      padding: 5px;
+      padding: 2px;
       border-bottom: 1px solid #cdcdcd;
       height: 100%;
       vertical-align: middle; }
