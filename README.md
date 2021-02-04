@@ -9,11 +9,14 @@ Inspired by [FiveThirtyEight](https://fivethirtyeight.com/)
 
 ## Table of Contents
 
-- [Background](#background)
-- [Install](#install)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- [cartographer](#cartographer)
+  - [Table of Contents](#table-of-contents)
+  - [Background](#background)
+    - [Fonts](#fonts)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Contributing](#contributing)
+  - [License](#license)
 
 ## Background
 
@@ -41,13 +44,13 @@ git clone https://github.com/bgrnwd/cartographer.git themes/cartographer
 
 Add the following to your `config.toml` to tell Hugo to use the theme
 
-```
+```toml
 theme = "cartographer"
 ```
 
 Alternatively, the theme can also be passed in as an argument when starting the Hugo server
 
-```
+```sh
 hugo server -t cartographer
 ```
 
@@ -58,4 +61,3 @@ Feel free to [open an issue](https://github.com/bgrnwd/cartographer/issues/new) 
 ## License
 
 [MIT](./LICENSE) © Brian Greenwood
-
