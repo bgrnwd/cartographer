@@ -29,7 +29,12 @@ a:hover {
     .wrapper {
       margin: 0 20px; } }
 .intro {
-  margin: 80px 0 300px 0; }
+  margin: 40px 0 300px 0; }
+
+blockquote {
+  color: #999;
+  border-left: 2px solid #3c3c3c;
+  padding-left: 10px; }
 
 nav {
   border-bottom: 2px solid #000;
