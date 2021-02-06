@@ -5,7 +5,11 @@
 
 cartographer is a minimal Hugo theme designed for readability
 
-Inspired by [FiveThirtyEight](https://fivethirtyeight.com/)
+Inspired by:
+
+- [FiveThirtyEight](https://fivethirtyeight.com/)
+- [Gregory Gundersen](https://gregorygundersen.com/)
+- [Chris Albon](https://chrisalbon.com/)
 
 ## Table of Contents
 
