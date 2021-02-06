@@ -1,7 +1,6 @@
 {{ define "main" }}
 <main class="wrapper">
     <div class="list">
-        <h1>{{ .Page.Title }}</h1>
         {{ .Content }}
         {{ range .Data.Pages.GroupByDate "2006" }}
         <div class="post-group">

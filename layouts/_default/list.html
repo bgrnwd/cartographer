@@ -1,26 +1,25 @@
 {{ define "main" }}
-    <main class="wrapper">
-        <div class="notes">
-            <h1>{{ .Page.Title }}</h1>
-            {{ range .RegularPages.GroupByParam "category"}}
-                <div class="category">
-                    <h2>{{ .Key }}</h2>
-                    {{ range .GroupByParam "subcategory"}}
-                        <div class="subcategory">
-                            <h3>{{ .Key }}</h3>
-                            <ul>
-                            {{ range .Pages }}
-                                <li>
-                                    <span>
-                                        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-                                    </span>
-                                </li>
-                            {{ end }}
-                            </ul>
-                        </div>
+<main class="wrapper">
+    <div class="notes">
+        {{ range .RegularPages.GroupByParam "category"}}
+        <div class="category">
+            <h2>{{ .Key }}</h2>
+            {{ range .GroupByParam "subcategory"}}
+            <div class="subcategory">
+                <h3>{{ .Key }}</h3>
+                <ul>
+                    {{ range .Pages }}
+                    <li>
+                        <span>
+                            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                        </span>
+                    </li>
                     {{ end }}
-                </div>
+                </ul>
+            </div>
             {{ end }}
         </div>
-    </main>
+        {{ end }}
+    </div>
+</main>
 {{ end }}
