@@ -3,6 +3,8 @@ body {
   padding: 0;
   border: 0;
   color: $black-2;
+  position: relative;
+  min-height: 100%;
 }
 
 a {
@@ -34,4 +36,8 @@ blockquote {
   color: $grey-9;
   border-left: 2px solid $grey-3c;
   padding-left: 10px;
+}
+
+html {
+  height: 100%;
 }
